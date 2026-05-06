@@ -7,8 +7,8 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
-    "target": "es2020",
+    "module": "nodenext", // defines the import/export syntax and module resolution strategy
+    "target": "es2020", // defines the JavaScript language features to be emitted in the output
     "esModuleInterop": true,
     // For nodejs:
     "lib": ["esnext"],
